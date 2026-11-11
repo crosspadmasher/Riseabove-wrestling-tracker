@@ -2,7 +2,7 @@
    Configure your GoatCounter site code below. No API tokens belong in client files. */
 (function(){
 'use strict';
-const GOATCOUNTER_CODE='REPLACE_WITH_YOUR_GOATCOUNTER_CODE';
+const GOATCOUNTER_CODE='<script data-goatcounter="https://riseabovexp
 const configured=/^[a-z0-9][a-z0-9-]*$/i.test(GOATCOUNTER_CODE)&&!GOATCOUNTER_CODE.startsWith('REPLACE_');
 const root='https://'+GOATCOUNTER_CODE+'.goatcounter.com';
 const path=location.pathname;
